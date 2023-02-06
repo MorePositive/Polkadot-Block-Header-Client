@@ -1,0 +1,17 @@
+# IDE
+.idea
+.vscode
+
+# Visual Studo cache/options directory
+.vs
+
+# Dependencies
+node_modules
+
+# Errors
+npm-debug.log
+yarn-error.log
+
+# Builds
+dist
+build

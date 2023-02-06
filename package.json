@@ -1,0 +1,32 @@
+{
+	"name": "polkadot-block-header-client",
+	"version": "1.0.0",
+	"description": "for t3rn",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "jest",
+		"build": "tsc",
+		"start": "npm run build && node dist/index.js",
+		"dev": "nodemon src/index.ts"
+	},
+	"keywords": [],
+	"author": "MorePositive",
+	"license": "ISC",
+	"dependencies": {
+		"@polkadot/api": "^9.13.6",
+		"express": "^4.17.1",
+		"merkletreejs": "^0.3.9",
+		"store": "^2.0.12",
+		"ts-node": "^9.1.1"
+	},
+	"devDependencies": {
+		"@types/crypto-js": "^4.1.1",
+		"@types/express": "^4.17.11",
+		"@types/jest": "^26.0.23",
+		"@types/store": "^2.0.2",
+		"jest": "^26.6.3",
+		"nodemon": "^2.0.7",
+		"ts-jest": "^26.5.5",
+		"typescript": "^4.2.4"
+	}
+}
